@@ -1,0 +1,129 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #2C2C2C; /* Dark gray background */
+    color: #F4E9D8; /* Soft white text */
+}
+
+a {
+    text-decoration: none;
+    color: #FFC107; /* Yellow link color */
+}
+
+a:hover {
+    color: #FFA000;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1A1A1A; /* Darker background for header */
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.nav a {
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #333333;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #FFC107;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFC107;
+    color: #333333;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Menu Section */
+.menu {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.menu h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #FFC107;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: #444444;
+    padding: 20px;
+    border-radius: 12px;
+    width: 250px;
+    text-align: center;
+    color: #F4E9D8;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.item h3 {
+    color: #FFC107;
+    margin-bottom: 10px;
+}
+
+.item span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #1A1A1A;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0D0D0D;
+    color: #F4E9D8;
+}
+
+.footer-nav a {
+    margin: 0 10px;
+}
